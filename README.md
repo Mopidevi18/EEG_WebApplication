@@ -7,7 +7,6 @@ This project implements emotion recognition using EEG signals from the DEAP data
 - **Data Preprocessing:**
   - Fast Fourier Transform (FFT)
   - Wavelet Transform
-  - Correlation Coefficients (Pearson & Spearman)
 - **Deep Learning Models:**
   - Convolutional Neural Network (CNN)
   - Long Short-Term Memory (LSTM)
@@ -19,13 +18,8 @@ This project implements emotion recognition using EEG signals from the DEAP data
   - Developed an LSTM-based deep learning model with wavelet features for EEG emotion recognition, improving
  accuracy by 2% over the initial model to **86%** for ten-class classification.
 
-## Installation
 ### Prerequisites
 - Python 3.7 or higher
 - Required Python libraries: Pytorch, NumPy, Pandas.
 
-### Steps
-1. **Clone the repository:**
-   ```bash
-   git clone <repo-url>
-   cd <repo-directory>
+
