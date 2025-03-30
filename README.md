@@ -1,17 +1,5 @@
 # Emotion Classification Using EEG Data
 
-## Table of Contents
-- [Overview](#overview)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Web Application](#web-application)
-- [Authors](#authors)
-- [Acknowledgements](#acknowledgements)
-- [References](#references)
-- [License](#license)
-
 ## Overview
 This project implements emotion recognition using EEG signals from the DEAP dataset. It leverages various deep learning architectures and preprocessing techniques to classify human emotions. The goal is to build an efficient and accurate emotion classification system that can be accessed via a user-friendly web application.
 
@@ -34,7 +22,7 @@ This project implements emotion recognition using EEG signals from the DEAP data
 ## Installation
 ### Prerequisites
 - Python 3.7 or higher
-- Required Python libraries: TensorFlow/Keras, NumPy, Pandas, Dash, etc.
+- Required Python libraries: Pytorch, NumPy, Pandas.
 
 ### Steps
 1. **Clone the repository:**
