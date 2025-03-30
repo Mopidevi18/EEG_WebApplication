@@ -1,7 +1,5 @@
 # Emotion Classification Using EEG Data
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-
 ## Table of Contents
 - [Overview](#overview)
 - [Features](#features)
@@ -27,9 +25,11 @@ This project implements emotion recognition using EEG signals from the DEAP data
   - Long Short-Term Memory (LSTM)
   - Gated Recurrent Unit (GRU)
 - **Web Application:**
-  - Built with Dash for interactive emotion classification from EEG data.
+  - Built a web application for interactive emotion classification from EEG data.
 - **Performance:**
   - Best model (FFT + LSTM) achieves up to **93% accuracy** for two-class classification.
+  - Developed an LSTM-based deep learning model with wavelet features for EEG emotion recognition, improving
+ accuracy by 2% over the initial model to **86%** for ten-class classification.
 
 ## Installation
 ### Prerequisites
